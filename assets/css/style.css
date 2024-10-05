@@ -6,6 +6,7 @@
     font-family: "League Spartan", sans-serif;
     font-size:16px;
     color: var(--blackishColor);
+    scroll-behavior: smooth;
 }
 *:focus {
     outline: none;
@@ -448,6 +449,9 @@ nav.project-link ul li a:hover i {
 }
 .footer-logo{
     text-align: center;
+}
+.footer-logo img {
+    width: 32px;
 }
 .footer-logo span{
     color: var(--whiteColor);
