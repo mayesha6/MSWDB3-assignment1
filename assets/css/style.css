@@ -189,6 +189,92 @@ a.common-btn:hover {
 }
 /* about section  */
 
+/* education-section */
+.education-section{    
+    margin: 130px 0px;
+}
+.education-section .title h2{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.education-wrap{
+    position: relative;
+
+}
+.education-wrap::after{
+    content: "";
+    position: absolute;
+    top:0;
+    left:50%;
+    height: 100%;
+    width:5px;
+    background-color: var(--grayishColor);
+
+}
+.education-content-wrap{
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+}
+.education-content-wrap::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: var(--whiteColor);
+    right: 50%;
+    top: 10px;
+    border: 3px solid var(--skyBlueColor);
+    border-radius: 50%;
+    z-index: 9;
+    transform: translate(21px, 0px);
+}
+.education-content, .education-content-right{
+    width:40%;
+    background-color: var(--whiteColor);
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.education-content::before {
+    content: "";
+    position: absolute;
+    width: 38px;
+    height: 30px;
+    background-color: var(--skyBlueColor);
+    right: -13px;
+    top: 10px;
+    transform: rotate(45deg);
+    z-index: -3;
+}
+.education-content-wrap h3 {
+    font-size: 20px;
+    line-height: 30px;
+}
+p.time {
+    padding: 2px 0px 10px;
+}
+p.desc {
+    font-size: 18px;
+    text-align: justify;
+}
+.education-content-right{
+    margin-left: auto;
+}
+.education-content-right::before {
+    content: "";
+    position: absolute;
+    width: 38px;
+    height: 30px;
+    background-color: var(--skyBlueColor);
+    left: -14px;
+    top: 16px;
+    transform: rotate(45deg);
+    z-index: -3;
+}
+/* education-section */
+
 /* skill section  */
 .skill-section{
     margin: 100px 0px;

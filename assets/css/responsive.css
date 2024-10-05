@@ -112,6 +112,28 @@
     }
 }
 
+/* 700px  */
+@media only screen and (max-width: 700px) {
+    /* education  */
+    .education-wrap::after{
+        left:0%;
+    
+    }
+    .education-content-wrap::after {
+        left: 0%;
+        transform: translate(-15px, 0px);
+    }
+    .education-content, .education-content-right{
+        width:85%;
+    }
+    .education-content{
+        margin-left: auto;
+    }
+    .education-content::before {
+        left: -14px;
+        top: 16px;
+    }
+}
 /* 575px  */
 @media only screen and (max-width: 575px) {
     .title h2 {
